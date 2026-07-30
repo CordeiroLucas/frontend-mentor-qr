@@ -1,0 +1,32 @@
+.card:hover {
+    box-shadow: 0 0 16px 0 var(--slate-900);  
+    transform: scale(1.02);
+}
+
+.card {
+    background-color: var(--white);
+    padding: 12px;
+    border-radius: 15px;
+    width: 300px;
+    height: auto;
+    align-items: center;
+    gap: 16px;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card-info {
+    padding: 16px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-description {
+    text-align: center;
+
+}
